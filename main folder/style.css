@@ -1,0 +1,59 @@
+/* Apply a simple style to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the main content container */
+  #mainDiv {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  #btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Apply a hover effect to the button */
+  #btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the <h1> element inside the mainDiv */
+  #mainDiv h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Add some spacing between elements */
+  #mainDiv, #btn {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for code blocks (optional) */
+  code {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+  }
+  
