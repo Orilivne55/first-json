@@ -1,4 +1,4 @@
-/* Apply a simple style to the body */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,16 +10,17 @@ body {
     height: 100vh;
   }
   
-  /* Style the main content container */
+
   #mainDiv {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
+    text-align: center; 
   }
   
-  /* Style the button */
+
   #btn {
     background-color: #007BFF;
     color: #fff;
@@ -27,25 +28,21 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 20px; 
   }
   
-  /* Apply a hover effect to the button */
+
   #btn:hover {
     background-color: #0056b3;
   }
   
-  /* Style the <h1> element inside the mainDiv */
+
   #mainDiv h1 {
     font-size: 24px;
     color: #333;
+    margin-bottom: 20px; 
   }
   
-  /* Add some spacing between elements */
-  #mainDiv, #btn {
-    margin-bottom: 20px;
-  }
-  
-  /* Style for code blocks (optional) */
   code {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
